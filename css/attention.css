@@ -1,0 +1,335 @@
+/* 共通のフレックスボックススタイル */
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+/* 共通のテキストスタイル */
+.text-white {
+    color: #ffffff;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+}
+
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+    }
+    .attention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 24px 40px;
+        background: #054b7d;
+        z-index: 0;
+        overflow: hidden;
+        height: 256px;
+        width: 100vw;
+        color: #ffffff;
+    }
+    .body-1ab {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 633;
+        overflow: hidden;
+        max-width: 1280px;
+    }
+    .title-1ac {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 634;
+        max-width: 1280px;
+    }
+    .website-policy {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 232px;
+        height: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 635;
+    }
+    .text-1ad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 636;
+        max-width: 1280px;
+    }
+    .frame-1ae {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+        width: 749px;
+        height: 52px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px;
+        text-align: center;
+        text-overflow: initial;
+        z-index: 637;
+        overflow: hidden;
+    }
+    .button-1af {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 638;
+    }
+    /* 共通のリンクボックススタイル */
+    .share-box-line, .share-box-line-1b1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 639;
+        border-radius: 64px;
+    }
+    .share-box-line {
+        width: 297px;
+    }
+    .share-box-line-1b1 {
+        width: 761px;
+        z-index: 642;
+    }
+    /* 共通のアイコンスタイル */
+    .medical-advertising, .medical-guidelines {
+        flex-shrink: 0;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background-size: cover;
+        z-index: 640;
+        overflow: hidden;
+    }
+    .medical-advertising {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/info-icon.svg) no-repeat center;
+    }
+    .medical-guidelines {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/guidelines-icon.svg) no-repeat center;
+        z-index: 643;
+    }
+    /* 共通のテキストスタイル */
+    .button-1b0, .footer {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 14px;
+        font-size: 14.220000267028809px;
+        font-weight: 300;
+        line-height: 14px;
+        text-align: left;
+        text-decoration: underline;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+    }
+    .button-1b0 {
+        z-index: 641;
+    }
+    .footer {
+        z-index: 644;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pc_only {
+        display: none !important
+    }
+    .sp_only {
+        display: inherit;
+    }
+    .attention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 40px 24px;
+        background: #054b7d;
+        z-index: 10;
+        overflow: hidden;
+        color: #ffffff;
+    }
+    .body-19a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 11;
+        overflow: hidden;
+        max-width: 1280px;
+    }
+    .title-19b,
+    .text-19c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        max-width: 1280px;
+    }
+    .title-19b {
+        z-index: 12;
+    }
+    .text-19c {
+        z-index: 14;
+    }
+    .website-policy {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 206px;
+        height: 14px;
+        font-size: 14.22px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 13;
+    }
+    .frame-19d {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 327px;
+        height: 80px;
+        font-size: 12.8px;
+        font-weight: 300;
+        line-height: 20.48px;
+        text-align: center;
+        z-index: 617;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 618;
+    }
+    .share-box-line,
+    .share-box-line-19f {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        border-radius: 64px;
+    }
+    .share-box-line {
+        z-index: 619;
+    }
+    .share-box-line-19f {
+        z-index: 622;
+    }
+    .advertising-regulation,
+    .advertising-guidelines {
+        flex-shrink: 0;
+        position: relative;
+        width: 14px;
+        height: 14px;
+        background-size: cover;
+        z-index: 620;
+        overflow: hidden;
+    }
+    .advertising-regulation {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/regulation-icon.svg) no-repeat center;
+    }
+    .advertising-guidelines {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/guidelines-icon.svg) no-repeat center;
+        z-index: 623;
+    }
+    .button-19e,
+    .footer {
+        font-weight: 300;
+        text-decoration: underline;
+        letter-spacing: 0.23px;
+    }
+    .button-19e {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        font-size: 11.64px;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 621;
+    }
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        width: 309px;
+        height: 32px;
+        font-size: 11.6px;
+        line-height: 16.24px;
+        text-align: left;
+        z-index: 624;
+    }
+}

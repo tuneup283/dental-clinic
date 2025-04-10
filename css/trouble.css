@@ -1,0 +1,579 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+    .trouble {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #ffffff;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .pc-section-title-131 {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 468;
+        max-width: 1280px;
+      }
+      .title-name-132 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 192px;
+        height: 32px;
+        color: #bf3b37;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 469;
+      }
+      .title-name-133 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 58px;
+        height: 16px;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 470;
+      }
+      .list-134 {
+        display: flex;
+        margin: 0 auto;
+        width: 1080px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 471;
+        overflow: hidden;
+        max-width: 1280px;
+      }
+      .row-135 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 472;
+      }
+      
+      /* 共通のicon-textスタイル */
+      .icon-text-136, .icon-text-139, .icon-text-13c, .icon-text-140, .icon-text-143 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 16px;
+        position: relative;
+        min-width: 108px;
+        padding: 40px 24px 40px 24px;
+        background: #fff9fa;
+        border: 2px solid #f2f2f2;
+        border-radius: 16px;
+      }
+      
+      .icon-text-136, .icon-text-139, .icon-text-13c {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        z-index: 473;
+      }
+      
+      .icon-text-140, .icon-text-143 {
+        flex-shrink: 0;
+        width: 344px;
+        z-index: 489;
+      }
+      
+      .ico-head {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/neck-pain-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 474;
+      }
+      
+      /* 共通の痛みテキストスタイル */
+      .neck-pain, .elbow-shoulder-pain, .hand-finger-pain, .knee-foot-pain, .waist-pain {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 23px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      
+      .neck-pain { z-index: 475; }
+      .elbow-shoulder-pain { z-index: 480; }
+      .hand-finger-pain { z-index: 485; }
+      .knee-foot-pain { z-index: 491; }
+      .waist-pain { z-index: 496; }
+      
+      /* 共通のアイコンスタイル */
+      .icon-137, .icon-13a, .icon-13d, .icon-141, .icon-144 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        right: 10px;
+        transform: translate(0, -57.94%);
+        overflow: hidden;
+      }
+      
+      .icon-137 { z-index: 476; }
+      .icon-13a { z-index: 481; }
+      .icon-13d { z-index: 486; }
+      .icon-141 { z-index: 492; }
+      .icon-144 { z-index: 497; }
+      
+      /* 共通のグループスタイル */
+      .group-138, .group-13b, .group-13e, .group-142, .group-145 {
+        position: relative;
+        width: 12px;
+        height: 21px;
+        margin: 2px 0 0 6px;
+        background-size: 100% 100%;
+      }
+      
+      .group-138 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-10.svg)
+          no-repeat center;
+        z-index: 477;
+      }
+      
+      .group-13b {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-11.svg)
+          no-repeat center;
+        z-index: 482;
+      }
+      
+      .group-13e {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-12.svg)
+          no-repeat center;
+        z-index: 487;
+      }
+      
+      .group-142 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-13.svg)
+          no-repeat center;
+        z-index: 493;
+      }
+      
+      .group-145 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-14.svg)
+          no-repeat center;
+        z-index: 498;
+      }
+      
+      .ico-pictogram {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/shoulder-pain-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 479;
+        overflow: hidden;
+      }
+      
+      .ico-hand {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/hand-pain-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 484;
+      }
+      
+      .row-13f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 488;
+      }
+      
+      .ico-foot {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/knee-pain-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 490;
+      }
+      
+      .ico-waist {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/waist-pain-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 495;
+        overflow: hidden;
+      }
+      
+      .btn-area-146 {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 499;
+        max-width: 1280px;
+      }
+      
+      .btn-primary-147 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 320px;
+        height: 64px;
+        padding: 16px 16px 16px 16px;
+        background: #bf3b37;
+        z-index: 500;
+        border-radius: 6px;
+      }
+      
+      .topics-list-148 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 29px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 501;
+      }
+      
+      .icon-149 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 8px;
+        transform: translate(0, -50%);
+        z-index: 502;
+        overflow: hidden;
+      }
+      
+      .group-14a {
+        position: relative;
+        width: 10px;
+        height: 17.5px;
+        margin: 1.667px 0 0 5px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-white-3.svg)
+          no-repeat center;
+        background-size: 100% 100%;
+        z-index: 503;
+      }
+      
+      .sp_only{
+        display: none;
+      }
+    
+}
+@media  screen and (max-width: 768px) {
+  .pc_only {
+    display: none !important
+  }
+  .sp_only {
+    display: inherit;
+  }
+  .trouble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    min-width: 0;
+    padding: 40px 24px;
+    background: #ffffff;
+    z-index: 444;
+    overflow: hidden;
+  }
+  .pc-section-title-122 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 445;
+    max-width: 1280px;
+  }
+  .title-name-123 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 110px;
+    height: 18px;
+    color: #bf3b37;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 18.29px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 446;
+  }
+  .trouble-124 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 42px;
+    height: 12px;
+    color: #333333;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 11.64px;
+    font-weight: 700;
+    line-height: 11.64px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 447;
+  }
+  .list-125 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 448;
+    overflow: hidden;
+    max-width: 1280px;
+  }
+  /* 共通のアイコンテキストスタイル */
+  .icon-text-126,
+  .icon-text-129,
+  .icon-text-12c,
+  .icon-text-12f,
+  .icon-text-132 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    min-width: 108px;
+    padding: 24px;
+    background: #fff9fa;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+  }
+  /* 共通のアイコンスタイル */
+  .ico-head,
+  .ico-pictogram,
+  .ico-hand,
+  .ico-foot,
+  .ico-waist {
+    flex-shrink: 0;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    z-index: 450;
+  }
+  .ico-head { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/head-icon.svg); }
+  .ico-pictogram { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/shoulder-icon.svg); }
+  .ico-hand { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/hand-icon.svg); }
+  .ico-foot { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/foot-icon.svg); }
+  .ico-waist { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/waist-icon.svg); }
+  /* 共通のテキストスタイル */
+  .neck-pain,
+  .elbow-shoulder-pain,
+  .shou-zhi-no-tong-mi,
+  .xi-jiao-no-tong-mi,
+  .yao-no-tong-mi {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 16px;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.22px;
+    font-weight: 600;
+    line-height: 15.642px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  /* 共通の矢印アイコンコンテナスタイル */
+  .icon-127,
+  .icon-12a,
+  .icon-12d,
+  .icon-130,
+  .icon-133 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 14px;
+    transform: translate(0, -63.22%);
+    overflow: hidden;
+  }
+  /* 共通の矢印アイコンスタイル */
+  .group-128,
+  .group-12b,
+  .group-12e,
+  .group-131,
+  .group-134 {
+    position: relative;
+    width: 10px;
+    height: 17.5px;
+    margin: 1.667px 0 0 5px;
+    background-size: 100% 100%;
+  }
+  .group-128 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red.svg); }
+  .group-12b { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-2.svg); }
+  .group-12e { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-3.svg); }
+  .group-131 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-4.svg); }
+  .group-134 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-5.svg); }
+  .btn-area-135 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 474;
+    max-width: 1280px;
+  }
+  .btn-primary-136 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 320px;
+    padding: 16px;
+    background: #bf3b37;
+    z-index: 475;
+    border-radius: 6px;
+  }
+  .topics-list-137 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 23px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.22px;
+    font-weight: 600;
+    line-height: 22.752px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.28px;
+    z-index: 476;
+  }
+  .icon-138 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 8px;
+    transform: translate(0, -47.5%);
+    z-index: 477;
+    overflow: hidden;
+  }
+  .group-139 {
+    position: relative;
+    width: 10px;
+    height: 17.5px;
+    margin: 1.667px 0 0 5px;
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-6.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 478;
+  }
+}

@@ -1,0 +1,602 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+    .medical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #f2f2f2;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .pc-section-title-107 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 408;
+        max-width: 1280px;
+      }
+      .medical-services-list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 192px;
+        height: 32px;
+        color: #054b7d;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 409;
+      }
+      .medical-108 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 60px;
+        height: 16px;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 410;
+      }
+      .list-109 {
+        display: flex;
+        margin: 0 auto;
+        width: 1080px;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        border: 6px solid #ffffff;
+        z-index: 411;
+        overflow: hidden;
+        max-width: 1280px;
+        border-radius: 16px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+      }
+      .row, .row-113, .general-orthopedics-121 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 412;
+      }
+      /* アイコンコンテナの共通スタイル */
+      .icon-text-10a, .icon-text-10d, .icon-text-110, .icon-text-114, .soccer-icon-118, .nerve-block-injection, .icon-122, .group-126, .icon-text-12a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        gap: 24px;
+        position: relative;
+        min-width: 108px;
+        height: 214px;
+        width:360px;
+        padding: 40px 24px 40px 24px;
+        background: #fcfbfc;
+        z-index: 413;
+      }
+      /* アイコンコンテナの左ボーダー */
+      .icon-text-10d, .icon-text-110, .soccer-icon-118, .nerve-block-injection, .group-126, .icon-text-12a{
+        border-left: 2px solid #dce3f5;
+      }
+      /* アイコンコンテナの下ボーダー */
+      .icon-text-114, .soccer-icon-118, .nerve-block-injection, .icon-122, .group-126, .icon-text-12a,.icon-text-10a,.icon-text-110,.icon-text-10d{
+        border-bottom: 2px solid #dce3f5;
+      }
+      /* アイコンの共通スタイル */
+      .hospital-icon, .soccer-icon, .rehabilitation-icon, .osteoporosis-clinic, .traffic-accident-clinic, .icon-11d, .group-123, .icon-text-127, .icon-12b {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        background-size: cover;
+        z-index: 414;
+        overflow: hidden;
+      }
+      /* 各アイコンの背景画像 */
+      .hospital-icon {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/general-orthopedics-icon.svg) no-repeat center;
+      }
+      .soccer-icon {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/sports-orthopedics-icon.svg) no-repeat center;
+      }
+      .rehabilitation-icon {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/rehabilitation-icon.svg) no-repeat center;
+      }
+      .osteoporosis-clinic {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/osteoporosis-icon.svg) no-repeat center;
+      }
+      .traffic-accident-clinic {
+        position: absolute;
+        width: 88px;
+        height: 88px;
+        top: 50%;
+        left: 50%;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/traffic-accident-icon.png) no-repeat center;
+        transform: translate(-50%, -50%);
+        z-index: 437;
+      }
+      .icon-11d {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/nerve-block-icon.svg) no-repeat center;
+      }
+      .group-123 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/dna-therapy-icon.svg) no-repeat center;
+      }
+      .icon-text-127 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/private-treatment-icon.svg) no-repeat center;
+      }
+      .icon-12b {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/other-services-icon.svg) no-repeat center;
+      }
+      /* テキストの共通スタイル */
+      .general-orthopedics, .sports-orthopedics, .rehabilitation, .icon-115, .icon-11a, .group-11e, .icon-text-124, .other-private-treatment, .group-12c {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 23px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 415;
+      }
+      /* 特殊なテキストスタイル */
+      .other-private-treatment {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 133px;
+        height: 46px;
+        line-height: 23.463px;
+        text-align: center;
+        z-index: 454;
+      }
+      /* 矢印アイコンの共通スタイル */
+      .icon-10b, .icon-10e, .icon-111, .group-116, .group-11b, .row-11f, .dna-therapy, .icon-128, .btn-area-12d {
+        flex-shrink: 0;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        right: 16px;
+        z-index: 416;
+        overflow: hidden;
+      }
+      /* 矢印アイコンの位置調整 */
+      .icon-10b, .icon-10e, .icon-111 {
+        transform: translate(0, -49.61%);
+      }
+      .group-116, .group-11b, .row-11f {
+        transform: translate(0, -57.94%);
+      }
+      .dna-therapy, .icon-128, .btn-area-12d {
+        transform: translate(0, -60.02%);
+      }
+      /* 矢印アイコンの中身の共通スタイル */
+      .group-10c, .group-10f, .group-112, .icon-text-117, .icon-text-11c, .icon-text-120, .icon-125, .group-129, .btn-primary-12e {
+        position: relative;
+        width: 12px;
+        height: 21px;
+        margin: 2px 0 0 6px;
+        background-size: 100% 100%;
+        z-index: 417;
+      }
+      /* 各矢印アイコンの背景画像 */
+      .group-10c {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark.svg) no-repeat center;
+      }
+      .group-10f {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-2.svg) no-repeat center;
+      }
+      .group-112 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-3.svg) no-repeat center;
+      }
+      .icon-text-117 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-4.svg) no-repeat center;
+      }
+      .icon-text-11c {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-5.svg) no-repeat center;
+      }
+      .icon-text-120 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-6.svg) no-repeat center;
+      }
+      .icon-125 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-7.svg) no-repeat center;
+      }
+      .group-129 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-8.svg) no-repeat center;
+      }
+      .btn-primary-12e {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-dark-9.svg) no-repeat center;
+      }
+      /* その他の要素 */
+      .group-119 {
+        flex-shrink: 0;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        z-index: 435;
+      }
+      .ico {
+        position: absolute;
+        width: 88px;
+        height: 88px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50.46%);
+        z-index: 436;
+      }
+      .topic-list {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 462;
+        max-width: 1280px;
+      }
+      .icon-12f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 320px;
+        height: 64px;
+        padding: 16px 16px 16px 16px;
+        background: #044b7c;
+        z-index: 463;
+        border-radius: 6px;
+      }
+      .text-a1 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 29px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 464;
+      }
+      .section-3d {
+        flex-shrink: 0;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 8px;
+        transform: translate(0, -50%);
+        z-index: 465;
+        overflow: hidden;
+      }
+      .group-130 {
+        position: relative;
+        width: 10px;
+        height: 17.5px;
+        margin: 1.667px 0 0 5px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-white-2.svg)
+          no-repeat center;
+        background-size: 100% 100%;
+        z-index: 466;
+      }
+}
+@media  screen and (max-width: 768px) {
+  .pc_only {
+    display: none !important
+  }
+  .sp_only {
+    display: inherit;
+  }
+  .medical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    min-width: 0;
+    padding: 40px 24px;
+    background: #f2f2f2;
+    z-index: 387;
+    overflow: hidden;
+  }
+  .pc-section-title-f8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 388;
+    max-width: 1280px;
+  }
+  .title-name-f9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 110px;
+    height: 18px;
+    color: #054b7d;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 18.29px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 389;
+  }
+  .medical-fa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 44px;
+    height: 12px;
+    color: #333333;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 11.64px;
+    font-weight: 700;
+    line-height: 11.64px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 390;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    border: 4px solid #ffffff;
+    z-index: 391;
+    overflow: hidden;
+    max-width: 1280px;
+    border-radius: 12px;
+    box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+  }
+
+  /* 診療項目の共通スタイル */
+  .icon-text-fb,
+  .icon-text-fe,
+  .icon-text-101,
+  .icon-text-105,
+  .icon-text-109,
+  .icon-text-10e,
+  .icon-text-112,
+  .icon-text-117,
+  .icon-text-11a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 24px;
+    background: #fcfbfc;
+    border-bottom: 2px solid #dce3f5;
+  }
+
+  /* アイコンの共通スタイル */
+  .ico-hospital,
+  .ico-soccer,
+  .icon-102,
+  .icon-106,
+  .ico,
+  .ico-10f,
+  .ico-113,
+  .ico-dna,
+  .ico-11b {
+    flex-shrink: 0;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  /* テキストの共通スタイル */
+  .general-surgery,
+  .sports-surgery,
+  .rehabilitation,
+  .osteoporosis-clinic,
+  .traffic-accident-clinic,
+  .nerve-block-injection,
+  .general-surgery-114,
+  .regenerative-medicine,
+  .other-private-practice {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 16px;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.22px;
+    font-weight: 600;
+    line-height: 15.642px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  /* 矢印アイコンコンテナの共通スタイル */
+  .icon-fc,
+  .icon-ff,
+  .icon-103,
+  .icon-107,
+  .icon-10c,
+  .icon-110,
+  .icon-115,
+  .icon-118,
+  .icon-11c {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 16px;
+    transform: translate(0, -58.22%);
+    overflow: hidden;
+  }
+
+  /* 矢印アイコンの共通スタイル */
+  .group-fd,
+  .group-100,
+  .group-104,
+  .group-108,
+  .group-10d,
+  .group-111,
+  .group-116,
+  .group-119,
+  .group-11d,
+  .group-121 {
+    position: relative;
+    width: 10px;
+    height: 17.5px;
+    margin: 1.667px 0 0 5px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* 個別のアイコン背景画像 */
+  .ico-hospital { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/hospital-icon.svg); }
+  .ico-soccer { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/soccer-icon.svg); }
+  .icon-102 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/rehabilitation-icon.svg); }
+  .icon-106 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/osteoporosis-icon.svg); }
+  .ico { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/traffic-accident-icon.png); }
+  .ico-10f { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/nerve-block-icon.svg); }
+  .ico-113 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/general-surgery-icon.svg); }
+  .ico-dna { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/dna-icon.svg); }
+  .ico-11b { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/private-practice-icon.svg); }
+
+  /* 個別の矢印アイコン背景画像 */
+  .group-fd { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue.svg); }
+  .group-100 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-2.svg); }
+  .group-104 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-3.svg); }
+  .group-108 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-4.svg); }
+  .group-10d { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-5.svg); }
+  .group-111 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-6.svg); }
+  .group-116 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-7.svg); }
+  .group-119 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-8.svg); }
+  .group-11d { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-9.svg); }
+  .group-121 { background-image: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-10.svg); }
+
+  /* ボタンエリア */
+  .btn-area-11e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 439;
+  }
+  .btn-primary-11f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 16px;
+    background: #044b7c;
+    z-index: 440;
+    border-radius: 6px;
+  }
+  .topics-list {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 23px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.22px;
+    font-weight: 600;
+    line-height: 22.752px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.28px;
+    z-index: 441;
+  }
+  .icon-120 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 8px;
+    transform: translate(0, -47.5%);
+    z-index: 442;
+    overflow: hidden;
+  }
+}

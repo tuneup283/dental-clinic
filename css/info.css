@@ -1,0 +1,522 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        min-width: 0;
+        background: #ffffff;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .hero-167 {
+        display: flex;
+        width: 1280px;
+        margin: 0 auto;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 545;
+        overflow: hidden;
+      }
+      .frame-168 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        gap: 32px;
+        position: relative;
+        padding: 40px 40px 40px 40px;
+        background: #ffffff;
+        z-index: 546;
+      }
+      .top-169 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 547;
+      }
+      .logo-area-16a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 12px;
+        position: relative;
+        width: 518px;
+        padding: 8px 16px 8px 16px;
+        z-index: 548;
+      }
+      .logo-black-16b {
+        flex-shrink: 0;
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background: url(../img/logo-area.svg);
+        background-size: cover;
+        z-index: 549;
+        width: 546px;
+      }
+      .division {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 550;
+        width: 546px;
+      }
+      .address {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 551;
+        overflow: hidden;
+      }
+      .pin-icon-16c {
+        flex-shrink: 0;
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/pin-icon-small.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 552;
+        overflow: hidden;
+      }
+      .address-info {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 26px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 553;
+      }
+      .train-16d {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 554;
+        overflow: hidden;
+      }
+      .train-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        width: 16px;
+        z-index: 555;
+        border-radius: 64px;
+      }
+      .train-icon {
+        flex-shrink: 0;
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/train-icon-small.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 556;
+        overflow: hidden;
+      }
+      .train-direction {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 26px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 557;
+      }
+      .cta-area-16e {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 558;
+      }
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 246px;
+        padding: 12px 32px 12px 32px;
+        border: 2px solid #bf3b37;
+        z-index: 559;
+        border-radius: 6px;
+      }
+      .phone-icon {
+        flex-shrink: 0;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/phone-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 560;
+        overflow: hidden;
+      }
+      .phone-number {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 18px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 561;
+      }
+      .button-16f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        gap: 8px;
+        position: relative;
+        padding: 12px 32px 12px 32px;
+        background: #bf3b37;
+        z-index: 562;
+        border-radius: 6px;
+      }
+      .pc-icon {
+        flex-shrink: 0;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/pc-icon-white.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 563;
+        overflow: hidden;
+      }
+      .web-reservation-170 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 18px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 564;
+      }
+      .button-171 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        gap: 8px;
+        position: relative;
+        padding: 12px 32px 12px 32px;
+        background: #04b74d;
+        z-index: 565;
+        border-radius: 6px;
+      }
+      .line-icon {
+        flex-shrink: 0;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/line-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 566;
+        overflow: hidden;
+      }
+      .line-172 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 18px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 567;
+      }
+      .opening-hours-173 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        padding: 16px 24px 16px 24px;
+        background: #ffffff;
+        border: 1px solid #dce3f5;
+        z-index: 568;
+        border-radius: 24px;
+      }
+      .schedule-table {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 569;
+        border-radius: 20px;
+      }
+      
+      /* テーブル行の共通スタイル */
+      .table-row, .table-row-178, .table-row-17f, .table-row-186, .table-row-18d, .table-row-194, .tr-19a, .tr-1a0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 570;
+      }
+      
+      /* テーブルヘッダーの共通スタイル */
+      .table-header, .table-header-174, .table-header-176, .table-header-179, .table-header-17b, .table-header-17d, 
+      .table-header-180, .table-header-182, .table-header-184, .table-header-187, .table-header-189, .table-header-18e, 
+      .table-header-190, .table-header-192, .table-header-195, .th-item-19b, .th-item-1a1 ,.table-header-18b{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 16px 16px 16px;
+        z-index: 571;
+      }
+      
+      /* テーブルアイテムの共通スタイル */
+      .table-item, .table-item-175, .table-item-177, .table-item-17a, .table-item-17c, .table-item-17e, 
+      .table-item-181, .table-item-183, .table-item-185, .table-item-188, .table-item-18a, .table-item-18c, 
+      .table-item-18f, .table-item-191, .table-item-193, .table-item-196, .shinryou-jikan, .shinryou-jikan-1a2 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 16px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 572;
+      }
+      
+      /* 下部ボーダー付きテーブルヘッダーの共通スタイル */
+      .table-header-174, .table-header-176, .table-header-17b, .table-header-17d, .table-header-182, .table-header-184, 
+      .table-header-189, .table-header-18b, .table-header-190, .table-header-192, .td-item-197,.td-item-19e,.td-item-198,.kyuu-1a4,
+      .td-item-19c, .td-item-1a3 {
+        border-top: 1px solid #999999;
+        height: 56px;
+        max-height: 56px;
+      }
+      /* ドット記号の共通スタイル */
+      .table-item-17c, .table-item-17e, .table-item-183, .table-item-185, .table-item-18a, .table-item-18c, 
+      .table-item-191, .table-item-193, .dot, .dot-199, .dot-19d, .triangle-19f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 581;
+      }
+      
+      /* 休診マークの共通スタイル */
+      .kyuu, .kyuu-1a5 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 623;
+      }
+      
+      /* テーブルセルの共通スタイル */
+      .td-item-197, .td-item-198, .td-item-19c, .td-item-19e, .td-item-1a3, .kyuu-1a4,.table-header-192,.table-header-18b,.table-header-184,.table-header-17d {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 56px;
+        padding: 16px 16px 16px 16px;
+        z-index: 608;
+        max-height: 56px;
+      }
+      
+      /* テーブル行の共通スタイル（flex-grow: 1） */
+      .table-row-178, .table-row-17f, .table-row-186, .table-row-18d, .table-row-194, .tr-19a, .tr-1a0 {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+      
+      /* テーブルヘッダーの共通スタイル（max-width: 160px） */
+      .table-header-179, .table-header-180, .table-header-187, .table-header-18e, .table-header-195, .th-item-19b, .th-item-1a1 {
+        max-width: 160px;
+      }
+      
+      /* テーブル行の共通スタイル（width: 200px） */
+      .table-row {
+        width: 200px;
+        min-width: 200px;
+      }
+      
+      .frame-1a6 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 16px 16px 16px;
+        background: #f4f8fc;
+        z-index: 626;
+        border-radius: 8px;
+      }
+      .frame-1a7 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 12px;
+        position: relative;
+        z-index: 627;
+      }
+      .time-note, .time-note-1a8 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 16px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 628;
+      }
+      .map-1a9 {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 553px;
+        z-index: 630;
+        overflow: hidden;
+      }
+      .image-1aa {
+        position: absolute;
+        width: 1304.403px;
+        height: 683px;
+        top: 50%;
+        left: 50%;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/map-large.png)
+          no-repeat center;
+        background-size: cover;
+        transform: translate(-50.92%, -50.13%);
+        z-index: 631;
+      }
+}
+

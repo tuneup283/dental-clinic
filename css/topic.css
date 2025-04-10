@@ -1,0 +1,367 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+    /* 共通のフレックスボックススタイル */
+    .topicks, .pc-section-title, .btn-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .topicks {
+        gap: 40px;
+        min-width: 0;
+        padding: 112px 40px 64px 40px;
+        background: #f3f3f3;
+        overflow: hidden;
+    }
+    
+    .pc-section-title {
+        margin: 0 auto;
+        gap: 16px;
+        z-index: 121;
+        max-width: 1280px;
+    }
+    
+    /* 共通のタイトルスタイル */
+    .span-title-name, .span-title-name-38 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    .span-title-name {
+        width: 156px;
+        height: 32px;
+        color: #044b7c;
+        font-size: 32px;
+        line-height: 32px;
+        z-index: 122;
+    }
+    
+    .span-title-name-38 {
+        width: 48px;
+        height: 16px;
+        color: #333333;
+        font-size: 16px;
+        line-height: 16px;
+        z-index: 123;
+    }
+    
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 1912px;
+        z-index: 0;
+    }
+    
+    /* 共通の病院画像スタイル */
+    .hospital, .hospital-39, .hospital-3b {
+        flex-shrink: 0;
+        position: relative;
+        width: 600px;
+        height: 400px;
+        background-size: cover;
+        border-radius: 32px;
+    }
+    
+    .hospital {
+        background: url(../img/hospital-04.png) no-repeat center;
+        z-index: 125;
+    }
+    
+    .hospital-39 {
+        background: url(../img/hospital-03.png) no-repeat center;
+        z-index: 127;
+    }
+    
+    .hospital-3b {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/hospital-reception.png) no-repeat center;
+        z-index: 130;
+    }
+    
+    /* 共通のアイコンスタイル */
+    .icon, .icon-3a {
+        flex-shrink: 0;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+    }
+    
+    .icon {
+        background: url(../img/icon.svg) no-repeat center;
+        background-size: cover;
+        z-index: 126;
+    }
+    
+    .icon-3a {
+        z-index: 128;
+    }
+    
+    .group {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin: 3.333px 0 0 10px;
+        background: url(../img/icon-1.svg) no-repeat center;
+        background-size: 100% 100%;
+        z-index: 129;
+    }
+    
+    .btn-area {
+        margin: 0 auto;
+        gap: 8px;
+        z-index: 0;
+        max-width: 1280px;
+    }
+    
+    .btn-primary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 320px;
+        height: 64px;
+        padding: 16px 16px 16px 16px;
+        background: #044b7c;
+        z-index: 0;
+        border-radius: 6px;
+    }
+    
+    .span-topics-list {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 29px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 133;
+    }
+    
+    .icon-3c {
+        flex-shrink: 0;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 8px;
+        transform: translate(0, -50%);
+        z-index: 134;
+        overflow: hidden;
+    }
+    
+    .group-3d {
+        position: relative;
+        width: 10px;
+        height: 17.5px;
+        margin: 1.667px 0 0 5px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-small.svg) no-repeat center;
+        background-size: 100% 100%;
+        z-index: 135;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pc_only {
+        display: none !important
+    }
+    .sp_only {
+        display: inherit;
+    }
+    .topicks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        min-width: 0;
+        padding: 40px 24px;
+        background: #f3f3f3;
+        z-index: 101;
+        overflow: hidden;
+    }
+    .section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 102;
+        max-width: 1280px;
+    }
+    .title, .title-47 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-weight: 700;
+    }
+    .title {
+        width: 90px;
+        height: 18px;
+        color: #044b7c;
+        font-size: 18.29px;
+        line-height: 18px;
+        z-index: 103;
+    }
+    .title-47 {
+        width: 35px;
+        height: 12px;
+        color: #333333;
+        font-size: 11.64px;
+        line-height: 11.64px;
+        z-index: 104;
+    }
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 901px;
+        overflow: hidden;
+    }
+    .hospital, .hospital-49, .hospital-4b {
+        flex-shrink: 0;
+        position: relative;
+        width: 279px;
+        height: 186px;
+        background-size: cover;
+        border-radius: 16px;
+    }
+    .hospital {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/hospital-image-1.png) no-repeat center;
+        z-index: 106;
+    }
+    .hospital-49 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/hospital-image-2.png) no-repeat center;
+        z-index: 108;
+    }
+    .hospital-4b {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/hospital-image-3.png) no-repeat center;
+        z-index: 111;
+    }
+    .icon-48, .icon-4a {
+        flex-shrink: 0;
+        position: relative;
+        width: 16px;
+        height: 16px;
+        overflow: hidden;
+    }
+    .icon-48 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-left-icon.png) no-repeat center;
+        background-size: cover;
+        z-index: 107;
+    }
+    .icon-4a {
+        z-index: 109;
+    }
+    .group {
+        position: relative;
+        width: 8px;
+        height: 14px;
+        margin: 1.333px 0 0 4px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-small.svg) no-repeat center;
+        background-size: 100% 100%;
+        z-index: 110;
+    }
+    .btn-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 0;
+    }
+    .btn-primary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px;
+        background: #044b7c;
+        z-index:0;
+        border-radius: 8px;
+    }
+    .view-all {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 23px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.22px;
+        font-weight: 600;
+        line-height: 22.752px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+        z-index: 114;
+    }
+    .icon-4c {
+        flex-shrink: 0;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 8px;
+        transform: translate(0, -47.5%);
+        z-index: 115;
+        overflow: hidden;
+    }
+    .group-4d {
+        position: relative;
+        width: 10px;
+        height: 17.5px;
+        margin: 1.667px 0 0 5px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium.svg) no-repeat center;
+        background-size: 100% 100%;
+        z-index: 116;
+    }
+}

@@ -1,0 +1,1226 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+    /* 共通のアイコン要素スタイル */
+    .ico-slash, .ico-slash-b8, .ico-pc-c1, .icon-text-balloon, .ico-license, .ico-file, .ico-file-d0, .ico-file-d2 {
+        flex-shrink: 0;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        z-index: 293;
+        overflow: hidden;
+    }
+    
+    .ico-slash {
+        width: 40px;
+        height: 40px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/slash-icon-blue.svg) no-repeat center;
+        z-index: 293;
+    }
+    
+    .ico-slash-b8 {
+        width: 40px;
+        height: 40px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/slash-icon-red.svg) no-repeat center;
+        z-index: 303;
+    }
+    
+    .ico-pc-c1 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/computer-icon-white.svg) no-repeat center;
+        z-index: 314;
+    }
+    
+    .icon-text-balloon {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/text-balloon-icon-white.svg) no-repeat center;
+        z-index: 324;
+    }
+    
+    .ico-license {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/insurance-card-icon.svg) no-repeat center;
+        z-index: 332;
+    }
+    
+    .ico-file {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/payment-icon.svg) no-repeat center;
+        z-index: 341;
+    }
+    
+    .ico-file-d0 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/medication-notebook-icon.svg) no-repeat center;
+        z-index: 335;
+    }
+    
+    .ico-file-d2 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/medical-certificate-icon.svg) no-repeat center;
+        z-index: 338;
+    }
+    
+    /* 共通のテキスト要素スタイル */
+    .web-reservation-b1, .line-registration, .web-reservation-bd, .line-registration-c6, .first-visit-items {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-weight: 700;
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    .web-reservation-b1 {
+        height: 41px;
+        font-size: 25.600000381469727px;
+        line-height: 40.96px;
+        z-index: 297;
+    }
+    
+    .line-registration {
+        height: 41px;
+        font-size: 25.600000381469727px;
+        line-height: 40.96px;
+        z-index: 301;
+    }
+    
+    .web-reservation-bd {
+        height: 34px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        z-index: 309;
+    }
+    
+    .line-registration-c6 {
+        height: 34px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        z-index: 319;
+    }
+    
+    .first-visit-items {
+        height: 41px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 25.600000381469727px;
+        font-weight: 600;
+        line-height: 40.96px;
+        z-index: 0;
+    }
+    
+    /* 共通のボタン要素スタイル */
+    .btn-c0, .btn-c9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 64px;
+        padding: 16px 16px 16px 16px;
+        z-index: 313;
+        max-width: 400px;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+    
+    .btn-c0 {
+        background: #bf3b37;
+        z-index: 313;
+    }
+    
+    .btn-c9 {
+        background: #04b74d;
+        z-index: 323;
+    }
+    
+    /* 共通のアイコン付きテキスト要素スタイル */
+    .icon-text-cd, .icon-text-ce, .icon-text-cf, .icon-text-d1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 8px;
+        position: relative;
+        min-width: 108px;
+        padding: 16px 16px 16px 16px;
+        background: #ffffff;
+        border: 2px solid #dce3f5;
+        border-radius: 6px;
+    }
+    
+    .icon-text-cd {
+        width: 372px;
+        z-index: 331;
+    }
+    
+    .icon-text-ce {
+        width: 265px;
+        z-index: 340;
+    }
+    
+    .icon-text-cf {
+        width: 339px;
+        z-index: 334;
+    }
+    
+    .icon-text-d1 {
+        width: 119px;
+        z-index: 337;
+    }
+    
+    /* 共通のドット要素スタイル */
+    .dots, .dots-b3, .dots-b4, .dots-b5, .dots-b6, .dots-b7 {
+        position: relative;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 7px;
+        text-align: left;
+    }
+    
+    .dots {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        width: 110px;
+        height: 7px;
+        color: #bf3b37;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 296;
+    }
+    
+    .dots-b3 {
+        flex-shrink: 0;
+        width: 111px;
+        text-overflow: initial;
+        white-space: nowrap;
+        letter-spacing: -1.76px;
+        z-index: 300;
+    }
+    
+    .dots-b4 {
+        color: #06c755;
+        letter-spacing: -2.94px;
+    }
+    
+    .dots-b5 {
+        color: #06c755;
+        letter-spacing: -5.5px;
+    }
+    
+    .dots-b6 {
+        color: #06c755;
+        letter-spacing: -6.16px;
+    }
+    
+    .dots-b7 {
+        color: #06c755;
+        letter-spacing: -1.76px;
+    }
+    
+    /* 共通のテキスト要素スタイル（小さいテキスト） */
+    .health-insurance-card-or-my-number-card, .cash-or-credit-card, .medication-notebook-or-information-on-medication-being-taken, .medical-certificate {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 20px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    .health-insurance-card-or-my-number-card {
+        z-index: 333;
+    }
+    
+    .cash-or-credit-card {
+        z-index: 342;
+    }
+    
+    .medication-notebook-or-information-on-medication-being-taken {
+        z-index: 336;
+    }
+    
+    .medical-certificate {
+        z-index: 339;
+    }
+    
+    /* 共通のテキスト要素スタイル（説明文） */
+    .text-b9, .text-bf, .text-c8 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        color: #000000;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 300;
+        line-height: 29.264px;
+        text-align: left;
+    }
+    
+    .text-b9 {
+        justify-content: center;
+        width: 1280px;
+        height: 87px;
+        text-align: center;
+        z-index: 304;
+    }
+    
+    .text-bf {
+        width: 444px;
+        height: 58px;
+        margin: 0 auto;
+        z-index: 312;
+    }
+    
+    .text-c8 {
+        width: 444px;
+        height: 58px;
+        margin: 0 auto;
+        z-index: 322;
+    }
+    
+    /* 共通のボックス要素スタイル */
+    .left-bb, .right-c3, .item-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        padding: 40px 40px 40px 40px;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+    }
+    
+    .left-bb {
+        flex-grow: 1;
+        flex-basis: 0;
+        gap: 24px;
+        z-index: 306;
+    }
+    
+    .right-c3 {
+        justify-content: space-between;
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 0 auto;
+        z-index: 316;
+        gap: 24px;
+    }
+    
+    .item-list {
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 24px 24px 24px 24px;
+        z-index: 330;
+        width: 100%;
+    }
+    
+    /* 共通のタイトル要素スタイル */
+    .title, .title-c5 {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+    }
+    
+    .title {
+        width: 272px;
+        z-index: 308;
+    }
+    
+    .title-c5 {
+        width: 249px;
+        z-index: 318;
+    }
+    
+    /* 共通のライン要素スタイル */
+    .line-be, .line-c7 {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        height: 1px;
+        background-size: cover;
+    }
+    
+    .line-be {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/horizontal-line.svg) no-repeat center;
+        z-index: 311;
+    }
+    
+    .line-c7 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/horizontal-line-green.svg) no-repeat center;
+        z-index: 321;
+    }
+    
+    /* 以下、元のコードの残りの部分 */
+    .first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #f3f3f3;
+        z-index: 0;
+        overflow: hidden;
+    }
+    
+    .ellipse-aa {
+        flex-shrink: 0;
+        position: absolute;
+        width: 352px;
+        height: 352px;
+        top: 95.595px;
+        left: -132px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/light-blue-circle.svg) no-repeat center;
+        background-size: cover;
+        z-index: 283;
+        border-radius: 50%;
+    }
+    
+    .ellipse-ab {
+        flex-shrink: 0;
+        position: absolute;
+        width: 291px;
+        height: 291px;
+        top: 38.595px;
+        right: 300px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/medium-blue-circle.svg) no-repeat center;
+        background-size: cover;
+        z-index: 284;
+        border-radius: 50%;
+    }
+    
+    .ellipse-ac {
+        flex-shrink: 0;
+        position: absolute;
+        width: 521px;
+        height: 521px;
+        top: 741.595px;
+        right: -75px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/large-blue-circle.svg) no-repeat center;
+        background-size: cover;
+        z-index: 285;
+        border-radius: 50%;
+    }
+    
+    .pc-section-title-ad {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 286;
+        max-width: 1280px;
+    }
+    
+    .title-name-ae {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 287px;
+        height: 32px;
+        color: #044b7c;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 287;
+    }
+    
+    .title-name-af {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 33px;
+        height: 16px;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 288;
+    }
+    
+    .body-b0 {
+        display: flex;
+        margin: 0 auto;
+        width: 1280px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 56px;
+        position: relative;
+        z-index: 289;
+        max-width: 1280px;
+    }
+    
+    .contents {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 32px;
+        position: relative;
+        z-index: 290;
+        max-width: 1280px;
+        border-radius: 8px;
+    }
+    
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 291;
+    }
+    
+    .sub-title {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 292;
+    }
+    
+    .text {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 438px;
+        z-index: 294;
+    }
+    
+    .span {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: -7px;
+        position: relative;
+        width: 110px;
+        z-index: 295;
+    }
+    
+    .and {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 34px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 298;
+    }
+    
+    .span-b2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: -7px;
+        position: relative;
+        width: 111px;
+        z-index: 299;
+    }
+    
+    .please-use {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 34px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 302;
+    }
+    
+    .hero-ba {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 32px;
+        position: relative;
+        z-index: 305;
+        max-width: 1280px;
+    }
+    
+    .div-bc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 307;
+    }
+    
+    .shorten-reception-time {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 34px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 310;
+    }
+    
+    .web-reservation-c2 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 21px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.43px;
+        z-index: 315;
+    }
+    
+    .div-c4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 317;
+    }
+    
+    .latest-info-delivery {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 34px;
+        color: #04b74d;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 320;
+    }
+    
+    .line-registration-link {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 21px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 21.329999923706055px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.43px;
+        z-index: 325;
+    }
+    
+    .contents-ca {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 326;
+        max-width: 1280px;
+        border-radius: 8px;
+    }
+    
+    .sub-title-cb {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 327;
+    }
+    
+    .text-cc {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 461px;
+        z-index: 328;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pc_only {
+        display: none !important
+    }
+    .sp_only {
+        display: inherit;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        min-width: 0;
+        padding: 40px 24px;
+        background: #f3f3f3;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .ellipse, .ellipse-a6 {
+        flex-shrink: 0;
+        position: absolute;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .ellipse {
+        width: 226px;
+        height: 226px;
+        top: 252.991px;
+        left: -132px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/circle-decoration-2.svg) no-repeat center;
+        z-index: 262;
+    }
+    .ellipse-a6 {
+        width: 339px;
+        height: 339px;
+        top: 979.991px;
+        right: -126px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/circle-decoration-3.svg) no-repeat center;
+        z-index: 263;
+    }
+    .section-25 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 264;
+        max-width: 1280px;
+    }
+    /* 共通テキストスタイル */
+    .text-63, .text-66, .text-6c, .text-67, .text-6d, .text-6f, .text-73, .text-77 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .text-63 {
+        width: 164px;
+        height: 18px;
+        color: #044b7c;
+        line-height: 18px;
+        text-align: center;
+        z-index: 265;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 700;
+    }
+    .title-name {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 24px;
+        height: 12px;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 700;
+        line-height: 11.64px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 266;
+    }
+    .body-a7 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        z-index: 267;
+        max-width: 1280px;
+    }
+    .contents, .contents-b6 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 268;
+        max-width: 1280px;
+        border-radius: 8px;
+    }
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 269;
+    }
+    .sub-title, .sub-title-b7 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 270;
+    }
+    /* 共通アイコンスタイル */
+    .ico-slash, .ico-slash-ab, .ico-pc, .icon-textballoon, .ico-license, .ico-file, .ico-file-bb, .ico-file-bd, .ico-file-c0 {
+        flex-shrink: 0;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .ico-slash, .ico-slash-ab {
+        width: 40px;
+        height: 40px;
+    }
+    .ico-slash {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/slash-icon-1.svg) no-repeat center;
+        z-index: 271;
+    }
+    .ico-slash-ab {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/slash-icon-2.svg) no-repeat center;
+        z-index: 282;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        width: 181px;
+        z-index: 272;
+    }
+    .frame-a8 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        width: 181px;
+        z-index: 273;
+    }
+    .span-a9, .span-aa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: -7px;
+        position: relative;
+    }
+    .span-a9 {
+        width: 78px;
+        z-index: 274;
+    }
+    .span-aa {
+        width: 79px;
+        z-index: 278;
+    }
+    /* 共通テキストスタイル */
+    .text-65, .text-68, .text-69, .text-6a, .text-6b {
+        position: relative;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        margin-bottom: -5px;
+    }
+    .text-65 {
+        width: 75px;
+        height: 15px;
+        color: #bf3b37;
+        line-height: 15px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 275;
+        letter-spacing: -1.05px;
+    }
+    .text-68, .text-69, .text-6a, .text-6b {
+        color: #06c755;
+    }
+    .text-68 { letter-spacing: -2.05px; }
+    .text-69 { letter-spacing: -3.75px; }
+    .text-6a { letter-spacing: -4.2px; }
+    .text-6b { letter-spacing: -1.2px; }
+    .text-67 { z-index: 277; }
+    .text-6d { z-index: 281; }
+    .text-ac {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 327px;
+        height: 92px;
+        color: #000000;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 300;
+        line-height: 22.752px;
+        text-align: center;
+        z-index: 283;
+    }
+    .hero-ad {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 284;
+        max-width: 1280px;
+    }
+    .left-ae, .right-b1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 12px;
+        position: relative;
+        padding: 32px 32px 24px;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+    }
+    .left-ae { z-index: 285; }
+    .right-b1 { z-index: 294; }
+    .title-af, .title-b2 {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+    }
+    .title-af {
+        width: 204px;
+        z-index: 286;
+    }
+    .title-b2 {
+        width: 188px;
+        z-index: 295;
+    }
+    .text-6f { z-index: 287; }
+    .text-73 { z-index: 296; }
+    .text-70, .text-74 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 26px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .text-70 {
+        color: #bf3b37;
+        z-index: 288;
+    }
+    .text-74 {
+        color: #04b74d;
+        z-index: 297;
+    }
+    .line, .line-b3 {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        height: 1px;
+        background-size: cover;
+    }
+    .line {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/horizontal-line.svg) no-repeat center;
+        z-index: 289;
+    }
+    .line-b3 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/horizontal-line-2.svg) no-repeat center;
+        z-index: 298;
+    }
+    .text-b0, .text-b4 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 263px;
+        height: 69px;
+        color: #000000;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 300;
+        line-height: 22.752px;
+        text-align: left;
+    }
+    .text-b0 { z-index: 290; }
+    .text-b4 { z-index: 299; }
+    /* 共通ボタンスタイル */
+    .btn, .btn-b5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px;
+        max-width: 400px;
+        border-radius: 7px;
+    }
+    .btn {
+        background: #bf3b37;
+        z-index: 291;
+    }
+    .btn-b5 {
+        background: #04b74d;
+        z-index: 300;
+        border-radius: 6px;
+    }
+    .ico-pc {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/pc-icon.svg) no-repeat center;
+        z-index: 292;
+    }
+    .icon-textballoon {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/text-balloon-icon.svg) no-repeat center;
+        z-index: 301;
+    }
+    .text-72, .text-76 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 14px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+    }
+    .text-72 { z-index: 293; }
+    .text-76 { z-index: 302; }
+    .text-b8 {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 288px;
+        z-index: 305;
+    }
+    .text-77 { z-index: 306; }
+    .item-list {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 24px;
+        background: #ffffff;
+        z-index: 307;
+        border-radius: 16px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+    }
+    /* 共通アイコンとテキストの組み合わせスタイル */
+    .section-2b, .icon-text-b9, .icon-text-ba, .icon-text-bc, .icon-text-bf {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 4px;
+        position: relative;
+        min-width: 108px;
+        padding: 16px;
+        background: #ffffff;
+        border: 2px solid #dce3f5;
+        border-radius: 6px;
+    }
+    .section-2b { z-index: 308; }
+    .icon-text-b9 { width: 268px; z-index: 311; }
+    .icon-text-ba { width: 108px; z-index: 314; }
+    .icon-text-bc { width: 268px; z-index: 317; }
+    .icon-text-bf { width: 210px; z-index: 320; }
+    .ico-license {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/license-icon.svg) no-repeat center;
+        z-index: 309;
+    }
+    .ico-file {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/file-icon-1.svg) no-repeat center;
+        z-index: 312;
+    }
+    .ico-file-bb {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/file-icon-2.svg) no-repeat center;
+        z-index: 315;
+    }
+    .ico-file-bd {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/file-icon-3.svg) no-repeat center;
+        z-index: 318;
+    }
+    .ico-file-c0 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/file-icon-4.svg) no-repeat center;
+        z-index: 321;
+    }
+    /* 共通テキストスタイル */
+    .text-78, .medicine-info, .medical-card, .medicine-info-be, .cash-credit-card {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 16px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 600;
+        line-height: 15.642px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .text-78 { z-index: 310; }
+    .medicine-info { z-index: 313; }
+    .medical-card { z-index: 316; }
+    .medicine-info-be { z-index: 319; }
+    .cash-credit-card { z-index: 322; }
+}

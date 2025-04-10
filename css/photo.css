@@ -1,0 +1,1549 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+    }
+    .photo {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        min-width: 0;
+        height: 526px;
+        padding: 48px 0 48px 0;
+        background: #F2F2F2;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .photo-container {
+        position: relative;
+        margin: 0 auto;
+        width: 100vw;
+        height: 526px;
+        flex-shrink: 0;
+        background: #F2F2F2;
+        z-index: 543;
+        overflow: hidden;
+    }
+    
+    /* 共通の写真アイテムスタイル */
+    .photo-item1, .photo-item2, .photo-item3, .photo-item4, .photo-item5, .photo-item6, .photo-item7 {
+        flex-shrink: 0;
+        aspect-ratio: 3/2;
+        border-radius: 16px;
+        position: absolute;
+    }
+    .photo-item1 img, .photo-item2 img, .photo-item3 img, .photo-item4 img, .photo-item5 img, .photo-item6 img, .photo-item7 img{
+        border-radius: 16px;
+        border: 6px solid #FFF;
+        box-shadow: 0px 0px 22px 0px rgba(0, 53, 152, 0.10);
+
+    }
+    
+    /* 個別の位置とサイズ */
+    .photo-item1 {
+        left: 300px;
+        top: 10px;
+    }
+    .photo-item1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .photo-item2 {
+
+        left: 0;
+        top: 200px;
+    }
+    .photo-item2 img{
+        width: 270px;
+        height: 180px;
+    }
+    .photo-item3 {
+        right: -200px;
+        top: 0px;
+
+    }
+    .photo-item3 img{
+        width: 450px;
+        height: 300px;
+    }
+    .photo-item4 {
+        right: 300px;
+        top: 150px;
+    }
+    .photo-item4 img{
+        width: 420px;
+        height: 280px;
+    }
+    .photo-item5 {
+        right: -700px;
+        top: 10px;
+    }
+    .photo-item5 img{
+        width: 300px;
+        height: 200px;
+    }
+    .photo-item6 {
+        right: -900px;
+        top: 200px;
+    }       
+    .photo-item6 img{
+        width: 270px;
+        height: 180px;
+    }
+    .photo-item7 {
+        right: -1300px;
+        top: 0;
+    }   
+    .photo-item7 img{
+        width: 450px;
+        height: 300px;
+    }   
+      
+      .photo-wrapper {
+        display: flex;
+        animation: slideLeft 30s linear infinite;
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      
+      @keyframes slideLeft {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      } 
+      /* ホバー時にアニメーションを一時停止 */
+    .photo-container:hover .photo-wrapper {
+        animation-play-state: paused;
+    }
+    
+    .photo-wrapper::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+    /* 共通の楕円スタイル */
+    .ellipse-photo1, .ellipse-photo2 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 329px;
+        height: 329px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/medium-blue-circle.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: -99;
+        border-radius: 50%;
+    }
+    
+    /* 個別の楕円位置 */
+    .ellipse-photo1 {
+        right: 149px;
+        top: 75.595px;
+    }
+    .ellipse-photo2 {
+        bottom: -100px;
+        left: 10px;
+    }
+}
+@media screen  and (max-width: 768px) {
+    .pc_only {
+        display: none !important
+    }
+    .sp_only {
+        display: inherit;
+    }
+
+    /* 共通のフレックスボックス設定 */
+    .photo, .info-15c, .hero-15d, .frame-15e, .top, .logo-area-15f, .div-161, .adress-162, .train-164, .icon-text-165, .cta-area, .btn-166, .btn-167, .btn-169, .time-16c, .table-16d, .tr-16e, .tr-172, .tr-17c, .tr-182, .tr-188, .tr-18e, .table-row {
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: var(--z-index);
+    }
+
+    /* 共通のテキストスタイル */
+    .opening-hours-16f, .morning, .afternoon, .mon, .tue, .wed, .thu, .fri, .sat, .day-holiday, .available, .available-175, .available-179, .available-17b, .available-17f, .available-181, .available-185, .available-187, .available-18b, .available-18d, .dot, .triangle, .rest-194, .frame-196 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: var(--z-index);
+    }
+
+    /* 共通のテーブルセル設定 */
+    .th-item, .th-item-170, .th-item-171, .td-item, .td-item-174, .td-item-178, .td-item-17a, .td-item-17e, .td-item-180, .td-item-184, .td-item-186, .td-item-18a, .td-item-18c, .td-item-190, .td-item-191, .rest-193, .frame-195 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: var(--z-index);
+    }
+
+    /* 個別のスタイル設定 */
+    .photo {
+        flex-direction: column;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        min-width: 0;
+        height: 526px;
+        padding: 48px 0;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/photo-background.png) no-repeat center;
+        background-size: cover;
+        z-index: 523;
+        overflow: hidden;
+    }
+
+    .info-15c {
+        flex-direction: column;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        min-width: 0;
+        background: #054b7d;
+        z-index: 524;
+        overflow: hidden;
+    }
+
+    .hero-15d {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 525;
+        overflow: hidden;
+    }
+    .frame-15e {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        padding: 40px 24px 40px 24px;
+        background: #ffffff;
+        z-index: 526;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 527;
+    }
+    .logo-area-15f {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 528;
+    }
+    .logo-black-160 {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        height: 43.009px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/logo-black-footer.png)
+          no-repeat center;
+        background-size: cover;
+        z-index: 529;
+    }
+    .div-161 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 530;
+    }
+    .adress-162 {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 531;
+        overflow: hidden;
+    }
+    .ico-pin-163 {
+        flex-shrink: 0;
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/pin-icon-footer.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 532;
+        overflow: hidden;
+    }
+    .saitama-kawaguchi {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        width: 307px;
+        height: 40px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 12.800000190734863px;
+        font-weight: 300;
+        line-height: 20.48px;
+        text-align: left;
+        z-index: 533;
+    }
+    .train-164 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 534;
+        overflow: hidden;
+    }
+    .icon-text-165 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        width: 16px;
+        z-index: 535;
+        border-radius: 64px;
+    }
+    .ico-train {
+        flex-shrink: 0;
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/train-icon-footer.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 536;
+        overflow: hidden;
+    }
+    .jr-kawaguchi {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 20px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 12.800000190734863px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 537;
+    }
+    .cta-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 538;
+    }
+    .btn-166 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 32px 16px 32px;
+        border: 2px solid #bf3b37;
+        z-index: 539;
+        border-radius: 8px;
+    }
+    .ico-tel {
+        flex-shrink: 0;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/phone-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 540;
+        overflow: hidden;
+    }
+    .phone-number {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 14px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+        z-index: 541;
+    }
+    .btn-167 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 32px 16px 32px;
+        background: #bf3b37;
+        z-index: 542;
+        border-radius: 8px;
+    }
+    .ico-pc-168 {
+        flex-shrink: 0;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/pc-icon-white.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 543;
+        overflow: hidden;
+    }
+    .web-reservation {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 14px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+        z-index: 544;
+    }
+    .btn-169 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 32px 16px 32px;
+        background: #04b74d;
+        z-index: 545;
+        border-radius: 8px;
+    }
+    .icon-textballoon-16a {
+        flex-shrink: 0;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/line-icon.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 546;
+        overflow: hidden;
+    }
+    .line-16b {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 14px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.220000267028809px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.28px;
+        z-index: 547;
+    }
+    .time-16c {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        padding: 16px 16px 16px 16px;
+        background: #ffffff;
+        z-index: 548;
+        border-radius: 12px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.1);
+    }
+    .table-16d {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 549;
+        border-radius: 20px;
+    }
+    .tr-16e {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        width: 101px;
+        z-index: 550;
+    }
+    .th-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 551;
+        max-width: 160px;
+    }
+    .opening-hours-16f {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 552;
+    }
+    .th-item-170 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 553;
+        max-width: 160px;
+    }
+    .morning {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 554;
+    }
+    .th-item-171 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 555;
+        max-width: 160px;
+    }
+    .afternoon {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 556;
+    }
+    .tr-172 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 557;
+    }
+    .th-item-173 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 558;
+    }
+    .mon {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 559;
+    }
+    .td-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 560;
+        max-height: 56px;
+    }
+    .available {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 561;
+    }
+    .td-item-174 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 562;
+        max-height: 56px;
+    }
+    .available-175 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 563;
+    }
+    .tr-176 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 564;
+    }
+    .th-item-177 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 565;
+    }
+    .tue {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 566;
+    }
+    .td-item-178 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 567;
+        max-height: 56px;
+    }
+    .available-179 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 568;
+    }
+    .td-item-17a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 569;
+        max-height: 56px;
+    }
+    .available-17b {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 570;
+    }
+    .tr-17c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 571;
+    }
+    .th-item-17d {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 572;
+        max-width: 160px;
+    }
+    .wed {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 573;
+    }
+    .td-item-17e {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 574;
+        max-height: 56px;
+    }
+    .available-17f {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 575;
+    }
+    .td-item-180 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 576;
+        max-height: 56px;
+    }
+    .available-181 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 577;
+    }
+    .tr-182 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 578;
+    }
+    .th-item-183 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 579;
+        max-width: 160px;
+    }
+    .thu {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 580;
+    }
+    .td-item-184 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 581;
+        max-height: 56px;
+    }
+    .available-185 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 582;
+    }
+    .td-item-186 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 583;
+        max-height: 56px;
+    }
+    .available-187 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 584;
+    }
+    .tr-188 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 585;
+    }
+    .th-item-189 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 586;
+        max-width: 160px;
+    }
+    .fri {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 587;
+    }
+    .td-item-18a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 588;
+        max-height: 56px;
+    }
+    .available-18b {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 589;
+    }
+    .td-item-18c {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 590;
+        max-height: 56px;
+    }
+    .available-18d {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 591;
+    }
+    .tr-18e {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 592;
+    }
+    .th-item-18f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 593;
+        max-width: 160px;
+    }
+    .sat {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 594;
+    }
+    .td-item-190 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 595;
+        max-height: 56px;
+    }
+    .dot {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 596;
+    }
+    .td-item-191 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 597;
+        max-height: 56px;
+    }
+    .triangle {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #044b7c;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 598;
+    }
+    .table-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        position: relative;
+        z-index: 599;
+    }
+    .th-item-192 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 32px;
+        padding: 16px 8px 16px 8px;
+        z-index: 600;
+    }
+    .day-holiday {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 601;
+    }
+    .rest-193 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 602;
+        max-height: 56px;
+    }
+    .rest-194 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 603;
+    }
+    .frame-195 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        height: 48px;
+        padding: 16px 8px 16px 8px;
+        border-bottom: 1px solid #999999;
+        z-index: 604;
+        max-height: 56px;
+    }
+    .frame-196 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #bf3b37;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 600;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 605;
+    }
+    .frame-197 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 16px 16px 16px;
+        background: #f4f8fc;
+        z-index: 606;
+        border-radius: 8px;
+    }
+    .frame-198 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 607;
+    }
+    .afternoon-note {
+        align-self: stretch;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 12px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 300;
+        line-height: 11.64px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 608;
+    }
+    .closing-time-note {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 263px;
+        height: 24px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 11.640000343322754px;
+        font-weight: 300;
+        line-height: 11.64px;
+        text-align: left;
+        z-index: 609;
+    }
+    .map {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        height: 240px;
+        z-index: 610;
+        overflow: hidden;
+    }
+    .image-199 {
+        position: absolute;
+        width: 895.703px;
+        height: 469px;
+        top: 50%;
+        left: 50%;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/map-image-large.png)
+          no-repeat center;
+        background-size: cover;
+        transform: translate(-48.77%, -56.86%);
+        z-index: 611;
+    }
+    .photo {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        min-width: 0;
+        height: 526px;
+        padding: 48px 0 48px 0;
+        background: #F2F2F2;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .photo-container {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        height: 526px;
+        flex-shrink: 0;
+        background: #F2F2F2;
+        z-index: 543;
+        overflow: hidden;
+    }
+    
+    /* 共通の写真アイテムスタイル */
+    .photo-item1, .photo-item2, .photo-item3, .photo-item4, .photo-item5, .photo-item6, .photo-item7 {
+        flex-shrink: 0;
+        aspect-ratio: 3/2;
+        border-radius: 16px;
+        position: absolute;
+    }
+    .photo-item1 img, .photo-item2 img, .photo-item3 img, .photo-item4 img, .photo-item5 img, .photo-item6 img, .photo-item7 img{
+        border-radius: 16px;
+        border: 6px solid #FFF;
+        box-shadow: 0px 0px 22px 0px rgba(0, 53, 152, 0.10);
+
+    }
+    
+    /* 個別の位置とサイズ */
+    .photo-item1 {
+        left: -200px;
+        top: 10px;
+    }
+    .photo-item1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .photo-item2 {
+
+        left: 0px;
+        top: 300px;
+    }
+    .photo-item2 img{
+        width: 270px;
+        height: 180px;
+    }
+    .photo-item3 {
+        left: 150px;
+        top: 0px;
+
+    }
+    .photo-item3 img{
+        width: 300px;
+        height: 200px;
+    }
+    .photo-item4 {
+        left: 300px;
+        top: 150px;
+    }
+    .photo-item4 img{
+        width: 220px;
+        height: 147px;
+    }
+    .photo-item5 {
+        left: 500px;
+        top: 250px;
+    }
+    .photo-item5 img{
+        width: 350px;
+        height: 200px;
+    }
+    .photo-item6 {
+        left: 600px;
+        top: 0px;
+    }       
+    .photo-item6 img{
+        width: 270px;
+        height: 180px;
+    }
+    .photo-item7 {
+        left: 800px;
+        top: 100px;
+    }   
+    .photo-item7 img{
+        width: 250px;
+        height: 150px;
+    }   
+      
+      .photo-wrapper {
+        display: flex;
+        animation: slideLeft 30s linear infinite;
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      
+      @keyframes slideLeft {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      } 
+      /* ホバー時にアニメーションを一時停止 */
+    .photo-container:hover .photo-wrapper {
+        animation-play-state: paused;
+    }
+    
+    .photo-wrapper::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+    /* 共通の楕円スタイル */
+    .ellipse-photo1, .ellipse-photo2 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/medium-blue-circle.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: -99;
+        border-radius: 50%;
+    }
+    
+    /* 個別の楕円位置 */
+    .ellipse-photo1 {
+        right: -100px;
+        top: 0px;
+    }
+    .ellipse-photo2 {
+        bottom: -50px;
+        left: -100px;
+    }
+}
+

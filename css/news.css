@@ -1,0 +1,584 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+      }
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #044b7c;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .ellipse {
+        flex-shrink: 0;
+        position: absolute;
+        width: 352px;
+        height: 352px;
+        top: -204.405px;
+        left: 961px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/blue-circle.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 246;
+        border-radius: 50%;
+      }
+      .pc-section-title-8d {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 247;
+        max-width: 1280px;
+      }
+      .title-name {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 128px;
+        height: 32px;
+        color: #ffffff;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 248;
+      }
+      .title-name-8e {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 40px;
+        height: 16px;
+        color: #ffffff;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 249;
+      }
+      .frame-8f {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        padding: 40px 40px 40px 40px;
+        background: #fcfbfc;
+        border: 6px solid #ffffff;
+        z-index: 250;
+        max-width: 1280px;
+        border-radius: 24px;
+        box-shadow: 0 0 22px 0 rgba(255, 255, 255, 0.1);
+      }
+      .list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 251;
+        overflow: hidden;
+        max-width: 1280px;
+      }
+      /* 共通のアイテムスタイル */
+      .item, .item-92, .item-97, .item-9c, .item-a1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        padding: 16px 16px 16px 16px;
+        z-index: 252;
+      }
+      /* 共通の日付スタイル */
+      .date, .date-93, .date-98, .date-9d, .date-a2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 104px;
+        height: 26px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 253;
+      }
+      /* 共通のカテゴリーアイテムスタイル */
+      .category-item, .category-item-94, .category-item-99, .category-item-9e, .category-item-a3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 120px;
+        min-width: 120px;
+        height: 32px;
+        z-index: 254;
+        border-radius: 66px;
+      }
+      /* カテゴリーアイテムの個別のボーダーカラー */
+      .category-item {
+        border: 2px solid #f1aa00;
+      }
+      .category-item-94 {
+        border: 2px solid #5487ab;
+      }
+      .category-item-99 {
+        border: 2px solid #a4bc07;
+      }
+      .category-item-9e {
+        border: 2px solid #f1aa00;
+      }
+      .category-item-a3 {
+        border: 2px solid #e45d5a;
+      }
+      /* 共通のカテゴリーテキストスタイル */
+      .date-90, .date-95, .date-9a, .date-9f, .date-a4 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 26px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 255;
+      }
+      /* カテゴリーテキストの個別の色 */
+      .date-90, .date-9f {
+        color: #f1aa00;
+      }
+      .date-95 {
+        color: #5487ab;
+      }
+      .date-9a {
+        color: #a4bc07;
+      }
+      .date-a4 {
+        color: #e45d5a;
+      }
+      /* 共通のタイトルスタイル */
+      .date-91, .date-96, .date-9b, .date-a0, .date-a5 {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 29px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 300;
+        line-height: 29px;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      /* タイトルの個別のz-index */
+      .date-91 { z-index: 256; }
+      .date-96 { z-index: 261; }
+      .date-9b { z-index: 266; }
+      .date-a0 { z-index: 271; }
+      .date-a5 { z-index: 276; }
+      /* アイテムの個別のボーダーとz-index */
+      .item-92, .item-97, .item-9c, .item-a1 {
+        border-bottom: 1px solid #dce3f5;
+      }
+      .item-92 { z-index: 257; }
+      .item-97 { z-index: 262; }
+      .item-9c { z-index: 267; }
+      .item-a1 { z-index: 272; }
+      .btn-area-a6 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 277;
+        max-width: 1280px;
+      }
+      .btn-primary-a7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 226px;
+        padding: 12px 56px 12px 56px;
+        background: #054b7d;
+        border: 2px solid #044b7c;
+        z-index: 278;
+        border-radius: 6px;
+      }
+      .news-list {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 26px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.32px;
+        z-index: 279;
+      }
+      .icon-a8 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 50%;
+        right: 10px;
+        transform: translate(0, -65.03%);
+        z-index: 280;
+        overflow: hidden;
+      }
+      .group-a9 {
+        position: relative;
+        width: 8px;
+        height: 14px;
+        margin: 1.333px 0 0 4px;
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-white-small.svg)
+          no-repeat center;
+        background-size: 100% 100%;
+        z-index: 281;
+      }
+}
+@media screen and (max-width: 768px) {
+  .pc_only {
+    display: none !important
+  }
+  .sp_only {
+    display: inherit;
+  }
+  .div-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    min-width: 0;
+    padding: 40px 24px 40px 24px;
+    background: #044b7c;
+    z-index: 225;
+    overflow: hidden;
+  }
+  .div-ellipse {
+    flex-shrink: 0;
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    top: -86.009px;
+    right: -109px;
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/circle-decoration-1.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 226;
+    border-radius: 50%;
+  }
+  .div-pc-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 227;
+    max-width: 1280px;
+  }
+  .span-title-name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 74px;
+    height: 18px;
+    color: #ffffff;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 18.290000915527344px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 228;
+  }
+  .span-title-name-8c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 29px;
+    height: 12px;
+    color: #ffffff;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 11.640000343322754px;
+    font-weight: 700;
+    line-height: 11.64px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 229;
+  }
+  .div-frame-8d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    padding: 16px 24px 16px 24px;
+    background: #ffffff;
+    z-index: 230;
+    max-width: 1280px;
+    border-radius: 12px;
+    box-shadow: 0 0 22px 0 rgba(255, 255, 255, 0.1);
+  }
+  .div-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 231;
+    overflow: hidden;
+    max-width: 1280px;
+  }
+  
+  /* 共通のアイテムスタイル */
+  .div-item, .item, .item-95, .item-9b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid #dce3f5;
+  }
+  .div-item { z-index: 232; }
+  .item { z-index: 238; }
+  .item-95 { z-index: 244; }
+  .item-9b { z-index: 250; }
+  
+  /* 共通のフレームスタイル */
+  .div-frame-8e, .frame-90, .frame-96, .frame-9c {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+  }
+  .div-frame-8e { width: 171px; z-index: 233; }
+  .frame-90 { width: 160px; z-index: 239; }
+  .frame-96 { width: 160px; z-index: 245; }
+  .frame-9c { width: 148px; z-index: 251; }
+  
+  /* 共通の日付スタイル */
+  .span-date, .date-91, .date-97, .date-9d {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 11.640000343322754px;
+    font-weight: 600;
+    line-height: 18.624px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .span-date { z-index: 234; }
+  .date-91 { z-index: 240; }
+  .date-97 { z-index: 246; }
+  .date-9d { z-index: 252; }
+  
+  /* 共通のカテゴリーアイテムスタイル */
+  .category-item, .category-item-92, .category-item-98, .category-item-9e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 2px 12px 2px 12px;
+    border-radius: 66px;
+  }
+  .category-item { width: 82px; border: 1px solid #f1aa00; z-index: 235; }
+  .category-item-92 { width: 71px; border: 1px solid #5487ab; z-index: 241; }
+  .category-item-98 { width: 71px; border: 1px solid #a4bc07; z-index: 247; }
+  .category-item-9e { width: 59px; border: 1px solid #e45d5a; z-index: 253; }
+  
+  /* 共通のカテゴリーテキストスタイル */
+  .date, .date-93, .date-99, .date-9f {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 11.640000343322754px;
+    font-weight: 600;
+    line-height: 18.624px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .date { color: #f1aa00; z-index: 236; }
+  .date-93 { color: #5487ab; z-index: 242; }
+  .date-99 { color: #a4bc07; z-index: 248; }
+  .date-9f { color: #e45d5a; z-index: 254; }
+  
+  /* 共通のタイトルスタイル */
+  .date-8f, .date-94, .date-9a, .date-a0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 279px;
+    height: 46px;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.220000267028809px;
+    font-weight: 300;
+    line-height: 22.752px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .date-8f { z-index: 237; }
+  .date-94 { z-index: 243; }
+  .date-9a { z-index: 249; }
+  .date-a0 { z-index: 255; }
+  
+  .btn-area-a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 256;
+    max-width: 1280px;
+  }
+  .btn-primary-a2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 12px 56px 12px 56px;
+    background: #054b7d;
+    border: 2px solid #044b7c;
+    z-index: 257;
+    border-radius: 7px;
+  }
+  .span-a3 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 23px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.220000267028809px;
+    font-weight: 600;
+    line-height: 22.752px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.28px;
+    z-index: 258;
+  }
+  .icon-a4 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -61.91%);
+    z-index: 259;
+    overflow: hidden;
+  }
+  .group-a5 {
+    position: relative;
+    width: 8px;
+    height: 14px;
+    margin: 1.333px 0 0 4px;
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-small-white.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 260;
+  }
+}

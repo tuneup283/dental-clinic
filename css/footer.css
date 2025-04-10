@@ -1,0 +1,537 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+    }
+    
+    /* 共通のフッターコンテナ */
+    .div-1b2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #222222;
+        z-index: 645;
+        overflow: hidden;
+    }
+    
+    /* 共通のフッター内部コンテナ */
+    .div-1b3 {
+        display: flex;
+        margin: 0 auto;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 48px;
+        position: relative;
+        z-index: 646;
+        max-width: 1280px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+    }
+    
+    /* 共通のリストタイトル */
+    .list-title, .list-title-1c2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        width: 240px;
+        z-index: 647;
+    }
+    
+    /* 共通のメニュー */
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 240px;
+        min-width: 240px;
+        z-index: 648;
+    }
+    
+    /* 共通のテキストスタイル */
+    .list-1b4, .shinryou-naiyou {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 16px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 649;
+    }
+    
+    /* 共通のフッターアイテム */
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 16px 0 0 0;
+        border-top: 1px solid #575757;
+        z-index: 650;
+    }
+    
+    /* 共通の日付コンテナ */
+    .date-1b5, .date-1b7, .date-1b9, .date-1bb, .date-1bd, .date-1bf, .date-1c5, .date-1c7, .date-1c9, .date-1cb, .date-1cd, .date-1cf, .date-1d1, .date-1d3, .date-1d5, .date-1d7, .date-1d9, .date-1db, .date-1dd, .date-1df, .date-1e1, .date-1e3, .date-1e5, .date-1e7, .date-1e9, .date-1ed, .date-1f0, .date-1f2, .date-1f5, .date-1f8, .date-1fa, .date-1fc, .date-1ff, .date-201, .date-203, .date-205, .date-207, .date-20b, .date-20e, .date-211 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 651;
+    }
+    
+    /* 共通のフッターアイテムテキスト */
+    .footer-item-1b6, .footer-item-1b8, .footer-item-1ba, .footer-item-1bc, .footer-item-1be, .footer-item-1c0, .footer-item-1c6, .footer-item-1c8, .footer-item-1ca, .footer-item-1cc, .footer-item-1ce, .footer-item-1d0, .footer-item-1d2, .footer-item-1d4, .footer-item-1d6, .footer-item-1d8, .footer-item-1da, .footer-item-1dc, .footer-item-1de, .footer-item-1e0, .footer-item-1e2, .footer-item-1e4, .footer-item-1e6, .footer-item-1e8, .footer-item-1ea, .footer-item-1ee, .footer-item-1f1, .footer-item-1f3, .footer-item-1f6, .footer-item-1f9, .footer-item-1fb, .footer-item-1fd, .footer-item-200, .footer-item-202, .footer-item-204, .footer-item-206, .footer-item-208, .footer-item-20c, .footer-item-20f, .footer-item-212 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 20px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.908px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 652;
+    }
+    
+    /* 太字のフッターアイテムテキスト */
+    .footer-item-1c6, .footer-item-1ee, .footer-item-1f6, .footer-item-200, .footer-item-202, .footer-item-204, .footer-item-206, .footer-item-208 {
+        font-weight: 600;
+    }
+    
+    /* 共通のリストコンテナ */
+    .div-1c1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        width: 664px;
+        z-index: 663;
+    }
+    
+    /* 共通のリスト */
+    .div-1c3 {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 48px;
+        position: relative;
+        min-width: 0;
+        padding: 16px 0 0 0;
+        border-top: 1px solid #575757;
+        z-index: 666;
+    }
+    
+    /* 共通の子リスト */
+    .list-1c4, .list-1eb, .list-1fe {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 667;
+    }
+    .list-1eb{
+        gap: 40px;
+    }
+    
+    /* 共通の子リスト内部 */
+    .child-list, .child-list-1ef, .child-list-1f7 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        padding: 0 0 0 24px;
+        z-index: 670;
+        font-weight: 300;
+    }
+    
+    /* 共通のフッターメニュー */
+    .menu-209 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 737;
+        overflow: hidden;
+        width: 1280px;
+        margin: 0 auto;
+    }
+    
+    /* 共通のリスト */
+    .list-20a {
+        max-width: 1280px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        padding: 16px 0 0 0;
+        z-index: 738;
+    }
+    
+    /* 共通の区切り線 */
+    .line-20d, .line-210 {
+        flex-shrink: 0;
+        position: relative;
+        width: 1px;
+        height: 16px;
+        background-size: cover;
+        z-index: 741;
+    }
+    
+    .line-20d {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/vertical-line.svg) no-repeat center;
+    }
+    
+    .line-210 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/vertical-line-2.svg) no-repeat center;
+    }
+    
+    /* 個別の幅指定 */
+    .date-1b5 { width: 43px; }
+    .date-1b7, .date-1b9, .date-1bb, .date-1bd { width: 57px; }
+    .date-1bf { width: 86px; }
+    .date-1c5 { width: 86px; }
+    .date-1c7 { width: 72px; }
+    .date-1c9 { width: 86px; }
+    .date-1cb { width: 100px; }
+    .date-1cd, .date-1cf { width: 114px; }
+    .date-1d1 { width: 228px; }
+    .date-1d3 { width: 269px; }
+    .date-1d5 { width: 200px; }
+    .date-1d7 { width: 114px; }
+    .date-1e3 { width: 214px; }
+    .date-1e5 { width: 72px; }
+    .date-1e7 { width: 57px; }
+    .date-1e9 { width: 198px; }
+    .date-1ed { width: 128px; }
+    .date-1f0 { width: 284px; }
+    .date-1f2 { width: 299px; }
+    .date-1f5 { width: 100px; }
+    .date-1f8 { width: 56px; }
+    .date-1fa { width: 152px; }
+    .date-1fc { width: 145px; }
+    .date-1ff { width: 114px; }
+    .date-201 { width: 72px; }
+    .date-203 { width: 145px; }
+    .date-205 { width: 100px; }
+    .date-207 { width: 114px; }
+    .date-20b { width: 84px; }
+    .date-20e { width: 143px; }
+    .date-211 { width: 127px; }
+    
+    /* 個別のリスト幅 */
+    .list-1c4 { width: 293px; }
+    .list-1eb { width: 323px; }
+    .list-1fe { width: 145px; }
+}
+@media screen and (max-width: 768px) {
+    .pc_only {
+        display: none !important
+    }
+    .sp_only {
+        display: inherit;
+    }
+
+    /* 共通のflexbox設定 */
+    .div-1a0, .div-1a1, .list-title, .menu-1a2, .footer-item, .list-title-1aa, .list-1ac, .list-1cc, .list-1cd, .list-1d5, .list-1df, .menu-1ea, .list-1eb {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        position: relative;
+        flex-direction: column;
+    }
+
+    /* 共通のテキストスタイル */
+    .list-1a3, .div-1ab, .child-list, .date-1cf, .date-1d7, .date-1e1, .date-1e3, .date-1e5, .date-1e7, .date-1e9 {
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 14.22px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    /* 共通のサブテキストスタイル */
+    .footer-item-1a4, .footer-item-1a5, .footer-item-1a6, .footer-item-1a7, .footer-item-1a8, .div-1a9, .footer-item-1af, .footer-item-1b0, .footer-item-1b1, .footer-item-1b2, .footer-item-1b3, .date-1b5, .date-1b7, .date-1b9, .date-1bb, .date-1bd, .date-1bf, .date-1c1, .date-1c3, .date-1c5, .date-1c7, .date-1c9, .date-1cb, .date-1d2, .date-1d4, .date-1da, .date-1dc, .date-1de, .date-1ed, .date-1f0, .date-1f3 {
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 12.8px;
+        font-weight: 300;
+        line-height: 17.92px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    /* 共通のコンテナスタイル */
+    .div-1a0 {
+        justify-content: center;
+        align-self: stretch;
+        gap: 40px;
+        min-width: 0;
+        padding: 40px 24px;
+        background: #222222;
+        overflow: hidden;
+        z-index: 625;
+    }
+
+    .div-1a1 {
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
+        gap: 32px;
+        max-width: 1280px;
+        z-index: 626;
+    }
+
+    /* 共通のリストスタイル */
+    .list-title, .list-title-1aa {
+        flex-direction: column;
+        align-self: stretch;
+        gap: 12px;
+        z-index: 627;
+    }
+
+    .footer-item, .list-1ac {
+        flex-direction: column;
+        align-self: stretch;
+        gap: 8px;
+        padding: 12px 0 0 0;
+        border-top: 1px solid #575757;
+    }
+
+    /* 共通のメニューアイテムスタイル */
+    .home, .doctor-introduction, .clinic-introduction, .visit-guide, .medical-services, .symptom-search, .general-orthopedics, .fracture-dislocation, .contusion-strain, .sprain-ligament-injury, .shoulder-neck-pain, .low-back-pain, .joint-pain, .footer-item-1b4, .footer-item-1b6, .footer-item-1b8, .footer-item-1ba, .footer-item-1bc, .footer-item-1be, .footer-item-1c0, .footer-item-1c2, .footer-item-1c4, .footer-item-1c6, .footer-item-1c8, .footer-item-1ca {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+    }
+
+    /* 個別の幅指定 */
+    .home { width: 38px; }
+    .doctor-introduction, .clinic-introduction, .visit-guide, .medical-services { width: 52px; }
+    .symptom-search { width: 77px; }
+    .general-orthopedics { width: 77px; }
+    .fracture-dislocation { width: 64px; }
+    .contusion-strain { width: 77px; }
+    .sprain-ligament-injury { width: 90px; }
+    .shoulder-neck-pain { width: 103px; }
+    .low-back-pain { width: 102px; }
+    .joint-pain { width: 205px; }
+    .footer-item-1b4 { width: 242px; }
+    .footer-item-1b6 { width: 180px; }
+    .footer-item-1b8 { width: 103px; }
+    .footer-item-1ba { width: 102px; }
+    .footer-item-1bc { width: 103px; }
+    .footer-item-1be { width: 154px; }
+    .footer-item-1c0 { width: 141px; }
+    .footer-item-1c2 { width: 77px; }
+    .footer-item-1c4 { width: 192px; }
+    .footer-item-1c6 { width: 64px; }
+    .footer-item-1c8 { width: 52px; }
+    .footer-item-1ca { width: 178px; }
+
+    /* 共通のフッターメニュースタイル */
+    .menu-1ea {
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        gap: 8px;
+        overflow: hidden;
+        max-width: 1280px;
+        z-index: 717;
+    }
+
+    .list-1eb {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        gap: 8px;
+        z-index: 718;
+    }
+
+    /* 共通の区切り線スタイル */
+    .line-1ee, .line-1f1 {
+        flex-shrink: 0;
+        position: relative;
+        width: 1px;
+        height: 12px;
+        background-size: cover;
+        z-index: 721;
+    }
+
+    .line-1ee {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/vertical-line-white.svg) no-repeat center;
+    }
+
+    .line-1f1 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/082616/vertical-line-white-2.svg) no-repeat center;
+    }
+
+    /* 追加のスタイル */
+    .menu-1a2 {
+        width: 240px;
+        min-width: 240px;
+        z-index: 628;
+    }
+
+    .list-1ac {
+        gap: 24px;
+        z-index: 646;
+    }
+
+    .list-1cc {
+        display: flex;
+        flex-direction: column;
+        width: 323px;
+        gap: 24px;
+        z-index: 687;
+    }
+
+    .list-1cd {
+        align-self: stretch;
+        gap: 8px;
+        min-width: 0;
+        z-index: 688;
+    }
+
+    .list-1d5 {
+        align-self: stretch;
+        gap: 8px;
+        min-width: 0;
+        z-index: 696;
+    }
+
+    .list-1df {
+        width: 131px;
+        gap: 8px;
+        z-index: 706;
+    }
+
+    .footer-item-1ad,.footer-item-1ce {
+        display: flex;
+        flex-direction: column;
+        width: 266px;
+        gap: 8px;
+        z-index: 647;
+    }
+
+    .footer-item-1ae {
+        width: 266px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 24px;
+        z-index: 650;
+    }
+
+    .child-list-1d0 {
+        display: flex;
+        flex-direction: column;
+        width: 293px;
+        gap: 8px;
+        padding: 0 0 0 24px;
+        z-index: 691;
+    }
+
+    .child-list-1d8 {
+        width: 161px;
+        gap: 8px;
+        padding: 0 0 0 24px;
+        z-index: 699;
+    }
+
+    .footer-item-1ce {
+        width: 116px;
+        gap: 8px;
+        z-index: 689;
+    }
+
+    .footer-item-1d6 {
+        width: 90px;
+        gap: 8px;
+        z-index: 697;
+    }
+
+    .footer-item-1ec {
+        gap: 8px;
+        z-index: 719;
+    }
+
+    .footer-item-1ef {
+        gap: 8px;
+        z-index: 722;
+    }
+
+    .footer-item-1f2 {
+        gap: 8px;
+        z-index: 725;
+    }
+    .copy-1f4{
+        background: #222222;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        font-size: 11.6px;
+    }
+}

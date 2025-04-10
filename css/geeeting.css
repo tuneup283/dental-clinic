@@ -1,0 +1,832 @@
+@media screen and (min-width: 768px) {
+    .sp_only{
+        display: none;
+    }
+    .greeting {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 40px;
+        position: relative;
+        min-width: 0;
+        padding: 64px 40px 64px 40px;
+        background: #f2f2f2;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .pc-section-title-14b {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 16px;
+        position: relative;
+        z-index: 505;
+        max-width: 1280px;
+    }
+    .title-name-14c {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 128px;
+        height: 32px;
+        color: #044b7c;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 506;
+    }
+    .greeting-14d {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        width: 65px;
+        height: 16px;
+        color: #333333;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 507;
+    }
+    .hero-14e {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 508;
+        max-width: 1280px;
+    }
+    .main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 32px;
+        position: relative;
+        z-index: 509;
+    }
+    /* 共通のカラムスタイル */
+    .right-14f, .left-15e {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        gap: 24px;
+        position: relative;
+        z-index: 510;
+        border-radius: 24px;
+    }
+    /* 共通の画像スタイル */
+    .image-150, .image-15f {
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        height: 435.33px;
+        background-size: cover;
+        z-index: 511;
+    }
+    .image-150 {
+        background: url(../img/39ff1fc5650d9d090e9074d0ef17ab3e.png) transparent 50% / cover no-repeat;
+    }
+    .image-15f {
+        background: url(../img/b3f362a406770b947eccfecf253600d6.png) transparent 50% / cover no-repeat;
+    }
+    /* 共通のテキストボックススタイル */
+    .text-151, .text-160 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        padding: 24px 24px 24px 24px;
+        background: #ffffff;
+        z-index: 512;
+        border-radius: 12px;
+        box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.05);
+    }
+    /* 共通のサブタイトルスタイル */
+    .sub-title-152, .sub-title-161 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+        position: relative;
+        z-index: 513;
+    }
+    /* 共通のテキストコンテナスタイル */
+    .text-153, .text-162 {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 139px;
+        z-index: 514;
+    }
+    /* 共通のドクター名スタイル */
+    .takahashi-yoshinori, .ogawa-yuto {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 51px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 51px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 515;
+    }
+    /* 共通のドクター名英語表記スタイル */
+    .takahashi-yoshinori-154, .ogawa-yuto-163 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 16px;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 516;
+    }
+    .takahashi-yoshinori-154 {
+        width: 145px;
+        color: #054b7d;
+    }
+    .ogawa-yuto-163 {
+        width: 90px;
+        color: #bf3b37;
+    }
+    /* 共通の説明文スタイル */
+    .text-155, .doctor-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        width: 387.33px;
+        height: 156px;
+        color: #333333;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px;
+        text-align: left;
+        z-index: 517;
+    }
+    /* 共通のボタンエリアスタイル */
+    .btn-area-156, .button-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        z-index: 518;
+    }
+    .btn-area-156 {
+        max-width: 1280px;
+    }
+    /* 共通のボタンスタイル */
+    .btn-primary-157, .primary-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 320px;
+        height: 64px;
+        padding: 16px 16px 16px 16px;
+        z-index: 519;
+        border-radius: 6px;
+    }
+    .btn-primary-157 {
+        background: #054b7d;
+        border: 2px solid #054b7d;
+    }
+    .primary-button {
+        background: #bf3b37;
+        border: 2px solid #bf3b37;
+    }
+    /* 共通のボタンテキストスタイル */
+    .learn-more, .learn-more-164 {
+        flex-shrink: 0;
+        flex-basis: auto;
+        position: relative;
+        height: 29px;
+        color: #ffffff;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 18.290000915527344px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0.37px;
+        z-index: 520;
+    }
+    /* 共通のアイコンスタイル */
+    .icon-158, .icon-165 {
+        flex-shrink: 0;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 6px;
+        transform: translate(0, -60%);
+        z-index: 521;
+        overflow: hidden;
+    }
+    /* 共通の矢印アイコンスタイル */
+    .group-159, .group-166 {
+        position: relative;
+        width: 10px;
+        height: 17.5px;
+        margin: 1.667px 0 0 5px;
+        background-size: 100% 100%;
+        z-index: 522;
+    }
+    .group-159 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-white-4.svg) no-repeat center;
+    }
+    .group-166 {
+        background: url(https://static.codia.ai/custom_image/2025-04-04/081824/arrow-right-white-5.svg) no-repeat center;
+    }
+    .copy {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 24px;
+        position: relative;
+        width: 145.34px;
+        padding: 56px 0 0 0;
+        z-index: 523;
+    }
+    /* 共通のフレームスタイル */
+    .frame-15a, .frame-15c {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        gap: 8px;
+        position: relative;
+        width: 60.67px;
+        z-index: 524;
+    }
+    .frame-15c {
+        justify-content: center;
+    }
+    /* 共通の縦書きテキストスタイル */
+    .optimal-treatment, .identify-pain-cause {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+        width: 42.67px;
+        color: #666666;
+        font-family: 'Zen Maru Gothic', var(--default-font-family);
+        font-size: 42.66999816894531px;
+        font-weight: 700;
+        line-height: 43.523px;
+        text-align: left;
+        z-index: 525;
+        writing-mode: tb;
+    }
+    .optimal-treatment {
+        height: 616px;
+    }
+    .identify-pain-cause {
+        height: 748px;
+    }
+    /* 共通のドットスタイル */
+    .dots-15b, .dots-15d {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+        width: 10px;
+        font-family: 'Noto Sans JP', var(--default-font-family);
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 13px;
+        text-align: center;
+        z-index: 526;
+        writing-mode: tb;
+        letter-spacing: .8rem;
+    }
+    .dots-15b {
+        color: #054b7d;
+    }
+    .dots-15d {
+        color: #bf3b37;
+    }
+}
+@media screen and (max-width: 768px) {
+  .pc_only {
+    display: none !important
+  }
+  .sp_only {
+    display: inherit;
+  }
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    min-width: 0;
+    padding: 40px 24px 40px 24px;
+    background: #f2f2f2;
+    z-index: 479;
+    overflow: hidden;
+  }
+  .pc-section-title-13a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 480;
+    max-width: 1280px;
+  }
+  .title-name-13b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 74px;
+    height: 18px;
+    color: #044b7c;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 18.290000915527344px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 481;
+  }
+  .greeting-13c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 48px;
+    height: 12px;
+    color: #333333;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 11.640000343322754px;
+    font-weight: 700;
+    line-height: 11.64px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 482;
+  }
+  .hero-13d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    z-index: 483;
+    max-width: 1280px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 32px;
+    position: relative;
+    z-index: 484;
+  }
+  /* 共通のカラムスタイル */
+  .right-13e, .left-150 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    z-index: 485;
+    border-radius: 24px;
+  }
+  /* 共通の画像スタイル */
+  .image-13f, .image-151 {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 327px;
+    background-size: cover;
+    z-index: 486;
+  }
+  .image-13f {
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/doctor-image-1.png) transparent 50% / cover no-repeat;
+  }
+  .image-151 {
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/doctor-image-2.png) transparent 50% / cover no-repeat;
+  }
+  /* 共通のテキストボックススタイル */
+  .text-140, .text-152 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    padding: 24px 24px 24px 24px;
+    background: #ffffff;
+    z-index: 487;
+    border-radius: 12px;
+    box-shadow: 0 0 22px 0 rgba(0, 53, 152, 0.05);
+  }
+  /* 共通のサブタイトルスタイル */
+  .sub-title-141, .sub-title-153 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 488;
+  }
+  /* 共通のテキストコンテナスタイル */
+  .text-142, .text-154 {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 93px;
+    z-index: 489;
+  }
+  /* 共通のドクター名スタイル */
+  .takahashi-yoshinori, .ogawa-yuto {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 21.329999923706055px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 490;
+  }
+  /* 共通のドクター名英語表記スタイル */
+  .takahashi-yoshinori-143, .ogawa-yuto-155 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 13px;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 12.800000190734863px;
+    font-weight: 700;
+    line-height: 12.8px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 491;
+  }
+  .takahashi-yoshinori-143 {
+    width: 116px;
+    color: #054b7d;
+  }
+  .ogawa-yuto-155 {
+    width: 72px;
+    color: #bf3b37;
+  }
+  /* 共通の説明文スタイル */
+  .text-144, .text-156 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    color: #333333;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.220000267028809px;
+    font-weight: 300;
+    line-height: 22.752px;
+    text-align: left;
+    z-index: 492;
+  }
+  .text-144 {
+    width: 100%;
+    height: 161px;
+  }
+  .text-156 {
+    width: 279px;
+    height: 161px;
+  }
+  /* 共通のボタンエリアスタイル */
+  .btn-area-145, .btn-area-157 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 493;
+  }
+  .btn-area-145 {
+    max-width: 1280px;
+  }
+  /* 共通のボタンスタイル */
+  .btn-primary-146, .btn-primary-158 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    padding: 16px 16px 16px 16px;
+    z-index: 494;
+    border-radius: 4px;
+  }
+  .btn-primary-146 {
+    background: #054b7d;
+    border: 2px solid #054b7d;
+  }
+  .btn-primary-158 {
+    background: #bf3b37;
+    border: 2px solid #bf3b37;
+  }
+  /* 共通のボタンテキストスタイル */
+  .details-here, .details-here-159 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 23px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 14.220000267028809px;
+    font-weight: 600;
+    line-height: 22.752px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 0.28px;
+    z-index: 495;
+  }
+  /* 共通のアイコンスタイル */
+  .icon-147, .icon-15a {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 6px;
+    transform: translate(0, -57.5%);
+    z-index: 496;
+    overflow: hidden;
+  }
+  /* 共通の矢印アイコンスタイル */
+  .group-148, .group-15b {
+    position: relative;
+    width: 10px;
+    height: 17.5px;
+    margin: 1.667px 0 0 5px;
+    background-size: 100% 100%;
+    z-index: 497;
+  }
+  .group-148 {
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-blue-11.svg) no-repeat center;
+  }
+  .group-15b {
+    background: url(https://static.codia.ai/custom_image/2025-04-04/082616/arrow-right-medium-red-7.svg) no-repeat center;
+  }
+  .frame-149 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 498;
+  }
+  .copy-14a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 499;
+  }
+  .frame-14b {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 2px;
+    position: relative;
+    width: 301px;
+    z-index: 500;
+  }
+  .frame-14c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 4px;
+    position: relative;
+    width: 107px;
+    z-index: 501;
+  }
+  .dots {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 5px;
+    color: #bf3b37;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 4.8px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 5.28px;
+    z-index: 502;
+  }
+  .different-perspective {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 22px;
+    color: #666666;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 21.329999923706055px;
+    font-weight: 700;
+    line-height: 21.757px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 503;
+  }
+  .pain-cause {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 16px;
+    color: #666666;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 504;
+  }
+  .frame-14d {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 2px;
+    position: relative;
+    z-index: 505;
+  }
+  .frame-14e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 4px;
+    position: relative;
+    width: 43px;
+    z-index: 506;
+  }
+  .dots-14f {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 5px;
+    color: #054b7d;
+    font-family: 'Noto Sans JP', var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 4.8px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 5.28px;
+    z-index: 507;
+  }
+  .optimal {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 22px;
+    color: #666666;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 21.329999923706055px;
+    font-weight: 700;
+    line-height: 21.757px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 508;
+  }
+  .treatment-proposal {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #666666;
+    font-family: 'Zen Maru Gothic', var(--default-font-family);
+    font-size: 18.290000915527344px;
+    font-weight: 700;
+    line-height: 18.656px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 509;
+  }
+}
