@@ -271,9 +271,6 @@
     .date-211 { width: 127px; }
     
     /* 個別のリスト幅 */
-    .list-1c4 { width: 293px; }
-    .list-1eb { width: 323px; }
-    .list-1fe { width: 145px; }
 }
 @media screen and (max-width: 768px) {
     .pc_only {

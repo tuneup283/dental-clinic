@@ -154,22 +154,22 @@
     }
     
     .icon-text-cd {
-        width: 372px;
+        
         z-index: 331;
     }
     
     .icon-text-ce {
-        width: 265px;
+        
         z-index: 340;
     }
     
     .icon-text-cf {
-        width: 339px;
+        
         z-index: 334;
     }
     
     .icon-text-d1 {
-        width: 119px;
+        
         z-index: 337;
     }
     
@@ -1216,7 +1216,7 @@
         font-weight: 600;
         line-height: 15.642px;
         text-align: left;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .text-78 { z-index: 310; }
     .medicine-info { z-index: 313; }
